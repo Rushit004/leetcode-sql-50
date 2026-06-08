@@ -28,7 +28,7 @@
 
 ## 🧭 About
 
-> **Who** — Rushit Patel, B.Tech CSE student at Nirma University, Ahmedabad.  
+> **Who** — Rushit Tholiya , B.Tech CSE student at Nirma University, Ahmedabad.  
 > **What** — A complete, well-documented solution set for the LeetCode SQL 50 study plan — covering Select, Joins, Aggregations, Subqueries, String Functions, and more.  
 > **Why** — To build strong SQL fundamentals through consistent practice and maintain a clean, referenceable knowledge base for every concept encountered along the way.
 
