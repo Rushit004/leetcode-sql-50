@@ -1,6 +1,6 @@
 # 🟢 196 · Delete Duplicate Emails
 
-**Difficulty:** Easy | **Topic:** DELETE / Self Join
+**Difficulty:** Easy | **Topic:** DELETE / Self Join     
 **LeetCode:** [Problem Link](https://leetcode.com/problems/delete-duplicate-emails/description/?envType=study-plan-v2&envId=top-sql-50)
 
 ---

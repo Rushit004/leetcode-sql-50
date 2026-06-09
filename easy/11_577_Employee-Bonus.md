@@ -1,4 +1,4 @@
-## 🟢 577. Employee Bonus
+# 🟢 577. Employee Bonus
 
 **Difficulty:** Easy | **Topic:** LEFT JOIN / NULL Handling  
 **LeetCode:** [Problem Link](https://leetcode.com/problems/employee-bonus/description/?envType=study-plan-v2&envId=top-sql-50)

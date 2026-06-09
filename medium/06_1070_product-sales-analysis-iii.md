@@ -1,6 +1,6 @@
 # 🟡 1070 · Product Sales Analysis III
 
-**Difficulty:** Medium | **Topic:** Subquery / JOIN / MIN / Group Filtering
+**Difficulty:** Medium | **Topic:** Subquery / JOIN / MIN / Group Filtering  
 **LeetCode:** [Problem Link](https://leetcode.com/problems/product-sales-analysis-iii/description/?envType=study-plan-v2&envId=top-sql-50)
 
 ---

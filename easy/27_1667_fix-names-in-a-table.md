@@ -1,6 +1,6 @@
 # 🟢 1667 · Fix Names in a Table
 
-**Difficulty:** Easy | **Topic:** String Functions / CONCAT / UPPER / LOWER
+**Difficulty:** Easy | **Topic:** String Functions / CONCAT / UPPER / LOWER  
 **LeetCode:** [Problem Link](https://leetcode.com/problems/fix-names-in-a-table/description/?envType=study-plan-v2&envId=top-sql-50)
 
 ---

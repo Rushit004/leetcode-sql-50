@@ -1,6 +1,6 @@
 # 🟡 1321 · Restaurant Growth
 
-**Difficulty:** Medium | **Topic:** Window Functions / CTE / Moving Average  
+**Difficulty:** Medium | **Topic:** Window Functions / CTE / Moving Average    
 **LeetCode:** [Problem Link](https://leetcode.com/problems/restaurant-growth/description/?envType=study-plan-v2&envId=top-sql-50)
 
 ---

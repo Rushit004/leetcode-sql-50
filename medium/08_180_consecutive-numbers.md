@@ -1,7 +1,7 @@
 
 # 🟡 180. Consecutive Numbers
 
-**Difficulty:** Medium | **Topic:** Database / Self-Join  
+**Difficulty:** Medium | **Topic:** Database / Self-Join    
 **LeetCode:** [Problem Link](https://leetcode.com/problems/consecutive-numbers/)
 
 ---

@@ -1,6 +1,6 @@
 # 🟢 1327 · List the Products Ordered in a Period
 
-**Difficulty:** Easy | **Topic:** JOIN / GROUP BY / HAVING / Date Filtering
+**Difficulty:** Easy | **Topic:** JOIN / GROUP BY / HAVING / Date Filtering     
 **LeetCode:** [Problem Link](https://leetcode.com/problems/list-the-products-ordered-in-a-period/description/?envType=study-plan-v2&envId=top-sql-50)
 
 ---

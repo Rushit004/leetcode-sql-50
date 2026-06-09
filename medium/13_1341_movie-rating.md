@@ -1,6 +1,6 @@
 # 🟡 1341 · Movie Rating
 
-**Difficulty:** Medium | **Topic:** UNION ALL / GROUP BY / Aggregation  
+**Difficulty:** Medium | **Topic:** UNION ALL / GROUP BY / Aggregation    
 **LeetCode:** [Problem Link](https://leetcode.com/problems/movie-rating/description/?envType=study-plan-v2&envId=top-sql-50)
 
 ---

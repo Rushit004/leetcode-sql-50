@@ -1,6 +1,6 @@
 # 🟡 1907. Count Salary Categories
 
-**Difficulty:** Medium | **Topic:** Database / UNION ALL / LEFT JOIN
+**Difficulty:** Medium | **Topic:** Database / UNION ALL / LEFT JOIN   
 **LeetCode:** [Problem Link](https://leetcode.com/problems/count-salary-categories/)
 
 ---

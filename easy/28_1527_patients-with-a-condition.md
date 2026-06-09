@@ -1,6 +1,6 @@
 # 🟢 1527 · Patients With a Condition
 
-**Difficulty:** Easy | **Topic:** String Matching / LIKE Pattern
+**Difficulty:** Easy | **Topic:** String Matching / LIKE Pattern      
 **LeetCode:** [Problem Link](https://leetcode.com/problems/patients-with-a-condition/description/?envType=study-plan-v2&envId=top-sql-50)
 
 ---

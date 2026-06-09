@@ -1,6 +1,6 @@
 # 🟡 1045 · Customers Who Bought All Products
 
-**Difficulty:** Medium | **Topic:** GROUP BY / HAVING / Scalar Subquery / COUNT DISTINCT
+**Difficulty:** Medium | **Topic:** GROUP BY / HAVING / Scalar Subquery / COUNT DISTINCT   
 **LeetCode:** [Problem Link](https://leetcode.com/problems/customers-who-bought-all-products/description/?envType=study-plan-v2&envId=top-sql-50)
 
 ---

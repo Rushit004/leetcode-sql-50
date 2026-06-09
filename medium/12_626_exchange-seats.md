@@ -1,6 +1,6 @@
 # 🟡 626 · Exchange Seats
 
-**Difficulty:** Medium | **Topic:** CASE / Conditional Logic  
+**Difficulty:** Medium | **Topic:** CASE / Conditional Logic    
 **LeetCode:** [Problem Link](https://leetcode.com/problems/exchange-seats/description/?envType=study-plan-v2&envId=top-sql-50)
 
 ---

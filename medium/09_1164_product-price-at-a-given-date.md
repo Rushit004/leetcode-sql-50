@@ -1,6 +1,6 @@
 # 🟡 1164. Product Price at a Given Date
 
-**Difficulty:** Medium | **Topic:** Database / Subquery / UNION
+**Difficulty:** Medium | **Topic:** Database / Subquery / UNION   
 **LeetCode:** [Problem Link](https://leetcode.com/problems/product-price-at-a-given-date/)
 
 ---

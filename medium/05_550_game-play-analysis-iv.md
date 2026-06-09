@@ -1,6 +1,6 @@
 # 🟡 550 · Game Play Analysis IV
 
-**Difficulty:** Medium | **Topic:** Subquery / JOIN / DATE_ADD / Aggregation
+**Difficulty:** Medium | **Topic:** Subquery / JOIN / DATE_ADD / Aggregation  
 **LeetCode:** [Problem Link](https://leetcode.com/problems/game-play-analysis-iv/description/?envType=study-plan-v2&envId=top-sql-50)
 
 ---

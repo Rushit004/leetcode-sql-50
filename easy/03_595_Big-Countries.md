@@ -1,4 +1,4 @@
-## 🟢 595. Big Countries
+# 🟢 595. Big Countries
 
 **Difficulty:** Easy | **Topic:** Filtering / WHERE  
 **LeetCode:** [Problem Link](https://leetcode.com/problems/big-countries/description/?envType=study-plan-v2&envId=top-sql-50)

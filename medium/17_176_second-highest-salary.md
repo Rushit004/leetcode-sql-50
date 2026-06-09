@@ -1,6 +1,6 @@
 # 🟡 176 · Second Highest Salary
 
-**Difficulty:** Medium | **Topic:** Subquery / LIMIT & OFFSET / NULL Handling
+**Difficulty:** Medium | **Topic:** Subquery / LIMIT & OFFSET / NULL Handling   
 **LeetCode:** [Problem Link](https://leetcode.com/problems/second-highest-salary/description/?envType=study-plan-v2&envId=top-sql-50)
 
 ---

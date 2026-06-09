@@ -1,6 +1,7 @@
 # 🟡 602. Friend Requests II: Who Has the Most Friends
 
-**Difficulty:** Medium | **Topic:** UNION ALL / GROUP BY | **LeetCode:** [View Problem](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/)
+**Difficulty:** Medium | **Topic:** UNION ALL / GROUP BY    
+**LeetCode:** [View Problem](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/)
 
 ---
 

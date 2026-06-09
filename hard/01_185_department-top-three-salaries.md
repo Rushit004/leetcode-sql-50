@@ -1,6 +1,6 @@
 # 🔴 185 · Department Top Three Salaries
 
-**Difficulty:** Hard | **Topic:** Window Functions / DENSE_RANK / JOIN
+**Difficulty:** Hard | **Topic:** Window Functions / DENSE_RANK / JOIN   
 **LeetCode:** [Problem Link](https://leetcode.com/problems/department-top-three-salaries/description/?envType=study-plan-v2&envId=top-sql-50)
 
 ---

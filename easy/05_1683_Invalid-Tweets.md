@@ -1,4 +1,4 @@
-## 🟢 1683. Invalid Tweets
+# 🟢 1683. Invalid Tweets
 
 **Difficulty:** Easy | **Topic:** String Functions / WHERE  
 **LeetCode:** [Problem Link](https://leetcode.com/problems/invalid-tweets/description/?envType=study-plan-v2&envId=top-sql-50)

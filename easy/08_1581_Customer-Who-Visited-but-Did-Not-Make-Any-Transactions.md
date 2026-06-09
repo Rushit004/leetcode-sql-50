@@ -1,4 +1,4 @@
-## 🟢 1581. Customer Who Visited but Did Not Make Any Transactions
+# 🟢 1581. Customer Who Visited but Did Not Make Any Transactions
 
 **Difficulty:** Easy | **Topic:** LEFT JOIN / NULL Handling / GROUP BY  
 **LeetCode:** [Problem Link](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/description/?envType=study-plan-v2&envId=top-sql-50)

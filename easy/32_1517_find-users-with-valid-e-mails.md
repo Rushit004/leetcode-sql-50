@@ -1,6 +1,6 @@
 # 🟢 1517 · Find Users With Valid E-Mails
 
-**Difficulty:** Easy | **Topic:** Regex / REGEXP / Pattern Validation
+**Difficulty:** Easy | **Topic:** Regex / REGEXP / Pattern Validation   
 **LeetCode:** [Problem Link](https://leetcode.com/problems/find-users-with-valid-e-mails/description/?envType=study-plan-v2&envId=top-sql-50)
 
 ---

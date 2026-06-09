@@ -1,4 +1,4 @@
-## 🟢 1148. Article Views I
+# 🟢 1148. Article Views I
 
 **Difficulty:** Easy | **Topic:** Filtering / WHERE  
 **LeetCode:** [Problem Link](https://leetcode.com/problems/article-views-i/description/?envType=study-plan-v2&envId=top-sql-50)

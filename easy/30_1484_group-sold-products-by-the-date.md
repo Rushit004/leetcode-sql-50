@@ -1,6 +1,6 @@
 # 🟢 1484 · Group Sold Products By The Date
 
-**Difficulty:** Easy | **Topic:** Aggregation / GROUP_CONCAT / GROUP BY
+**Difficulty:** Easy | **Topic:** Aggregation / GROUP_CONCAT / GROUP BY    
 **LeetCode:** [Problem Link](https://leetcode.com/problems/group-sold-products-by-the-date/description/?envType=study-plan-v2&envId=top-sql-50)
 
 ---

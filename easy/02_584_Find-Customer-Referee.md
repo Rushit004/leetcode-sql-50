@@ -1,4 +1,4 @@
-## 🟢 584. Find Customer Referee
+# 🟢 584. Find Customer Referee
 
 **Difficulty:** Easy | **Topic:** NULL Handling / Filtering  
 **LeetCode:** [Problem Link](https://leetcode.com/problems/find-customer-referee/description/?envType=study-plan-v2&envId=top-sql-50)

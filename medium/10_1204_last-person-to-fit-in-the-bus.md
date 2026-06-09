@@ -1,6 +1,6 @@
 # 🟡 1204. Last Person to Fit in the Bus
 
-**Difficulty:** Medium | **Topic:** Database / Window Functions
+**Difficulty:** Medium | **Topic:** Database / Window Functions    
 **LeetCode:** [Problem Link](https://leetcode.com/problems/last-person-to-fit-in-the-bus/)
 
 ---

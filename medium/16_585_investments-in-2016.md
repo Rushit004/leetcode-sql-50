@@ -1,6 +1,6 @@
 # 🟡 585 · Investments in 2016
 
-**Difficulty:** Medium | **Topic:** Aggregation / Subquery / IN Filter
+**Difficulty:** Medium | **Topic:** Aggregation / Subquery / IN Filter  
 **LeetCode:** [Problem Link](https://leetcode.com/problems/investments-in-2016/description/?envType=study-plan-v2&envId=top-sql-50)
 
 ---

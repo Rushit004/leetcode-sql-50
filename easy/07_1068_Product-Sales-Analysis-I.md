@@ -1,4 +1,4 @@
-## 🟢 1068. Product Sales Analysis I
+# 🟢 1068. Product Sales Analysis I
 
 **Difficulty:** Easy | **Topic:** JOIN / INNER JOIN  
 **LeetCode:** [Problem Link](https://leetcode.com/problems/product-sales-analysis-i/description/?envType=study-plan-v2&envId=top-sql-50)

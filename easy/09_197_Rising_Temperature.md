@@ -1,4 +1,4 @@
-## 🟢 197. Rising Temperature
+# 🟢 197. Rising Temperature
 
 **Difficulty:** Easy | **Topic:** Self JOIN / Date Functions  
 **LeetCode:** [Problem Link](https://leetcode.com/problems/rising-temperature/description/?envType=study-plan-v2&envId=top-sql-50)
