@@ -11,7 +11,6 @@
 [![Medium](https://img.shields.io/badge/🟡%20Medium-17-f59e0b?style=for-the-badge)](#-medium--17-problems)
 [![Hard](https://img.shields.io/badge/🔴%20Hard-1-ef4444?style=for-the-badge)](#-hard--1-problem)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![Stars](https://img.shields.io/github/stars/Rushit004/leetcode-sql-50?style=for-the-badge&color=fbbf24)](https://github.com/Rushit004/leetcode-sql-50/stargazers)
 
 </div>
 
