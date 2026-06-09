@@ -12,8 +12,7 @@ Return the result ordered by `employee_id`.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Employees (
   employee_id INT,
@@ -42,8 +41,7 @@ CREATE TABLE Employees (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT employee_id
 FROM Employees 

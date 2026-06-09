@@ -59,8 +59,7 @@ WHERE w1.temperature > w2.temperature;
 
 ---
 
-## 🔍 Approach
-
+## 🧠 Approach
 1. Perform a **Self JOIN** on the `Weather` table, treating `w1` as the current day and `w2` as the previous day.
 2. Use `DATEDIFF(w1.recordDate, w2.recordDate) = 1` to match each row with its immediate previous day's row.
 3. Apply a `WHERE` filter to only keep rows where the current day's temperature (`w1.temperature`) is greater than the previous day's temperature (`w2.temperature`).
@@ -68,12 +67,10 @@ WHERE w1.temperature > w2.temperature;
 
 ---
 
-## 🧠 Concepts Used
-
+## 📌 Concepts Used
 `Self JOIN` `DATEDIFF()` `Date Functions` `JOIN` `Table Alias` `Filtering` `WHERE clause`
 
 ---
 
-## ✍️ My Takeaway
-
+## 💭 My Takeaway
 This problem introduces the concept of a **Self JOIN** — joining a table with itself using two aliases to compare rows within the same table. The `DATEDIFF()` function is key here as it calculates the difference in days between two dates, ensuring we only compare truly consecutive days. Using `= 1` instead of just `>` is important to avoid false matches between non-adjacent dates.

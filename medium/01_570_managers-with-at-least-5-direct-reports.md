@@ -62,8 +62,7 @@ HAVING COUNT(e2.id) >= 5;
 
 ---
 
-## 🔍 Approach
-
+## 🧠 Approach
 1. Perform a **Self JOIN** on the `Employee` table — `e1` represents the manager and `e2` represents the direct reports.
 2. Join condition `e1.id = e2.managerId` links each manager to all their direct reports.
 3. `GROUP BY e1.id, e1.name` groups all direct reports under their respective manager.
@@ -72,12 +71,10 @@ HAVING COUNT(e2.id) >= 5;
 
 ---
 
-## 🧠 Concepts Used
-
+## 📌 Concepts Used
 `Self JOIN` `GROUP BY` `HAVING` `COUNT()` `Aggregate Functions` `Table Alias` `Filtering`
 
 ---
 
-## ✍️ My Takeaway
-
+## 💭 My Takeaway
 This problem combines **Self JOIN** with **aggregation** — a very powerful pattern in SQL. The key distinction here is using `HAVING` instead of `WHERE` for filtering on aggregated results. `WHERE` filters rows before grouping, while `HAVING` filters after grouping. Also, grouping by both `e1.id` and `e1.name` is a good practice to avoid ambiguity, especially when names might not be unique across the table.

@@ -13,8 +13,7 @@ Return the result table in any order.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Transactions (
   id         INT PRIMARY KEY,
@@ -45,8 +44,7 @@ CREATE TABLE Transactions (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT
     DATE_FORMAT(trans_date, '%Y-%m') AS month,

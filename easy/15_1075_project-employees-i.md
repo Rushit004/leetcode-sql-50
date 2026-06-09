@@ -13,8 +13,7 @@ Return the result table in any order.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Project (
   project_id  INT,
@@ -60,8 +59,7 @@ CREATE TABLE Employee (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT project_id, ROUND(AVG(t2.experience_years), 2) AS 'average_years'
 FROM Project t1

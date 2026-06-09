@@ -15,8 +15,7 @@ Return the result table in any order.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Employee (
   employee_id   INT,
@@ -50,8 +49,7 @@ CREATE TABLE Employee (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT employee_id, department_id
 FROM Employee

@@ -64,8 +64,7 @@ WHERE area >= 3000000 OR population >= 25000000;
 
 ---
 
-## 🔍 Approach
-
+## 🧠 Approach
 1. Select `name`, `population`, and `area` columns from the `World` table.
 2. Apply a `WHERE` filter with two conditions joined by `OR`.
 3. First condition checks if `area >= 3000000` (at least 3 million km²).
@@ -74,12 +73,10 @@ WHERE area >= 3000000 OR population >= 25000000;
 
 ---
 
-## 🧠 Concepts Used
-
+## 📌 Concepts Used
 `WHERE clause` `OR condition` `Filtering` `Comparison Operators` `Multi-column SELECT`
 
 ---
 
-## ✍️ My Takeaway
-
+## 💭 My Takeaway
 This problem is straightforward but reinforces an important SQL concept — using `OR` to combine multiple filter conditions. A row only needs to satisfy **one** of the conditions to be included, unlike `AND` where both must be true. Always think carefully about whether your business logic requires `AND` or `OR` before writing the filter.

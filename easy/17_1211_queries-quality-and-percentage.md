@@ -16,8 +16,7 @@ Return the result table in any order.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Queries (
   query_name VARCHAR(30),
@@ -48,8 +47,7 @@ CREATE TABLE Queries (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT query_name,
 ROUND(AVG(rating/position), 2) AS 'quality',

@@ -14,8 +14,7 @@ Return the result table in any order.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Patients (
   patient_id   INT,
@@ -43,8 +42,7 @@ CREATE TABLE Patients (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT patient_id, patient_name, conditions
 FROM Patients

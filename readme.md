@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=SQL%2050&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=LeetCode%20Study%20Plan%20%E2%80%94%20All%2050%20Solved%20%26%20Documented&descAlignY=58&descColor=a78bfa&fontAlign=50" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=SQL%2050&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=42&desc=LeetCode%20Study%20Plan%20%E2%80%94%20All%2050%20Solved%20%26%20Documented&descAlignY=65&descColor=a78bfa" />
 
 </div>
 
@@ -61,7 +61,7 @@ Difficulty + Topic badge | LeetCode link
 📥 Sample Input  (markdown table)
 📤 Sample Output (markdown table)
 💡 Solution  (SQL code block)
-🔍 Approach  (numbered steps)
+🧠 Approach  (numbered steps)
 📌 Concepts Used  (`backtick` tags)
 💭 My Takeaway  (1–2 sentences in plain language)
 ```

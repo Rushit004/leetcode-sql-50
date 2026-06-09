@@ -79,8 +79,7 @@ GROUP BY customer_id;
 
 ---
 
-## 🔍 Approach
-
+## 🧠 Approach
 1. Start with the `Visits` table as the base (left) table to keep all visit records.
 2. `LEFT JOIN` with the `Transactions` table on `visit_id` — visits with no matching transaction will have `NULL` in all `Transactions` columns.
 3. Use `WHERE t2.visit_id IS NULL` to filter only those visits that had **no transaction** at all.
@@ -89,12 +88,10 @@ GROUP BY customer_id;
 
 ---
 
-## 🧠 Concepts Used
-
+## 📌 Concepts Used
 `LEFT JOIN` `NULL Handling` `IS NULL` `GROUP BY` `COUNT()` `WHERE clause` `Aggregate Functions` `Table Alias`
 
 ---
 
-## ✍️ My Takeaway
-
+## 💭 My Takeaway
 This problem teaches a classic **anti-join** pattern in SQL — using `LEFT JOIN` + `WHERE right_table.column IS NULL` to find rows in the left table that have **no match** in the right table. This is a cleaner and often more efficient alternative to using `NOT IN` or `NOT EXISTS`. Whenever the question asks "find records that don't have a corresponding entry somewhere", this pattern should be the first thing that comes to mind.

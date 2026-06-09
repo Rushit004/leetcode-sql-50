@@ -17,8 +17,7 @@ Return all three categories even if some have **zero accounts**.
 
 ---
 
-## 🗃️ Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Accounts (
     account_id INT PRIMARY KEY,
@@ -74,8 +73,7 @@ GROUP BY c.category;
 
 ---
 
-## 🪜 Approach
-
+## 🧠 Approach
 1. Build a derived table `c` using `UNION ALL` to hardcode all three category labels — this guarantees every category appears in the output even with zero matches.
 2. `LEFT JOIN` the `Accounts` table onto `c` using a multi-condition `ON` clause that maps each income range to its corresponding category label.
 3. Use `COUNT(a.account_id)` instead of `COUNT(*)` so that unmatched rows from the left side (zero-account categories) are correctly counted as `0`.
@@ -83,12 +81,10 @@ GROUP BY c.category;
 
 ---
 
-## 🧠 Concepts Used
-
+## 📌 Concepts Used
 `UNION ALL` `LEFT JOIN` `COUNT()` `GROUP BY` `BETWEEN` `Derived Table` `Conditional JOIN`
 
 ---
 
-## ✍️ My Takeaway
-
+## 💭 My Takeaway
 The main challenge here is ensuring zero-count categories still appear in the result. Using a hardcoded category table with `UNION ALL` as the left side of a `LEFT JOIN` is an elegant pattern for this — it acts as a guaranteed row anchor. Using `COUNT(a.account_id)` instead of `COUNT(*)` is a subtle but critical detail to correctly return `0` instead of `1` for unmatched categories.

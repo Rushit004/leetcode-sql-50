@@ -12,8 +12,7 @@ Return both results in a single column.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Movies (
   movie_id INT,
@@ -75,8 +74,7 @@ CREATE TABLE MovieRating (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 -- Part 1: User with most ratings
 (SELECT u.name AS results

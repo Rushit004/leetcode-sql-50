@@ -13,8 +13,7 @@ The final order of the table does not matter.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Person (
   id    INT,
@@ -39,8 +38,7 @@ CREATE TABLE Person (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 DELETE p1
 FROM Person p1

@@ -15,8 +15,7 @@ Return the result table in any order.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Prices (
   product_id  INT,
@@ -63,8 +62,7 @@ CREATE TABLE UnitsSold (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT 
     p.product_id,

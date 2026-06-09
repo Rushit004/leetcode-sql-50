@@ -12,8 +12,7 @@ Return the result table ordered by `user_id`.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Users (
   user_id INT,
@@ -37,8 +36,7 @@ CREATE TABLE Users (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT user_id,
        CONCAT(UPPER(SUBSTRING(name, 1, 1)), LOWER(SUBSTRING(name, 2))) AS 'name'

@@ -13,8 +13,7 @@ Divide the number of players who logged in the day after their first login by th
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Activity (
   player_id    INT,
@@ -43,8 +42,7 @@ CREATE TABLE Activity (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT
     ROUND(

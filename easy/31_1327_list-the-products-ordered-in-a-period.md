@@ -12,8 +12,7 @@ Return the result table in any order.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Products (
   product_id       INT,
@@ -66,8 +65,7 @@ CREATE TABLE Orders (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT t2.product_name, SUM(t1.unit) AS 'unit'
 FROM Orders t1

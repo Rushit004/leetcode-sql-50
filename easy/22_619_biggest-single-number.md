@@ -13,8 +13,7 @@ If there is no single number, return `null`.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE MyNumbers (
   num INT
@@ -42,8 +41,7 @@ CREATE TABLE MyNumbers (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT MAX(t.num) AS 'num'
 FROM (

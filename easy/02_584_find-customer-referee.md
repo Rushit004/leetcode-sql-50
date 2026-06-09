@@ -61,8 +61,7 @@ WHERE referee_id != 2 OR referee_id IS NULL;
 
 ---
 
-## 🔍 Approach
-
+## 🧠 Approach
 1. Select the `name` column from the `Customer` table.
 2. Filter out rows where `referee_id = 2` using `!= 2`.
 3. Crucially, also include rows where `referee_id IS NULL` — because in SQL, `NULL != 2` evaluates to `NULL` (unknown), **not** `TRUE`, so those rows would be silently dropped without the extra condition.
@@ -70,12 +69,10 @@ WHERE referee_id != 2 OR referee_id IS NULL;
 
 ---
 
-## 🧠 Concepts Used
-
+## 📌 Concepts Used
 `WHERE clause` `NULL Handling` `IS NULL` `Three-Valued Logic` `OR condition` `Filtering`
 
 ---
 
-## ✍️ My Takeaway
-
+## 💭 My Takeaway
 This problem is a classic **NULL trap**. In SQL, any arithmetic or comparison with `NULL` returns `NULL`, not `TRUE` or `FALSE` — this is called **three-valued logic**. So writing `referee_id != 2` alone quietly drops every row where `referee_id` is `NULL`. Always handle `NULL` explicitly with `IS NULL` or `IS NOT NULL` whenever your filter column can be null.

@@ -12,8 +12,7 @@ Return the result table in any order.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Products (
   product_id INT,
@@ -43,8 +42,7 @@ CREATE TABLE Products (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT product_id
 FROM Products

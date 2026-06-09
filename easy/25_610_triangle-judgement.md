@@ -15,8 +15,7 @@ Return the result table in any order.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Triangle (
   x INT,
@@ -42,8 +41,7 @@ CREATE TABLE Triangle (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT x, y, z,
 CASE

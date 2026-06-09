@@ -12,8 +12,7 @@ Return the result table ordered by `id` in ascending order.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Seat (
   id INT,
@@ -43,8 +42,7 @@ CREATE TABLE Seat (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT 
     CASE

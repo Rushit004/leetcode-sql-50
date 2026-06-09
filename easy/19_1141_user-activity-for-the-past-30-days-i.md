@@ -15,8 +15,7 @@ Return the result table in any order.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Activity (
   user_id       INT,
@@ -51,8 +50,7 @@ CREATE TABLE Activity (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT activity_date AS 'day', COUNT(DISTINCT user_id) AS 'active_users'
 FROM Activity

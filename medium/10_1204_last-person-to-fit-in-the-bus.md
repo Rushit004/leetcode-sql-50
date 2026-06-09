@@ -13,8 +13,7 @@ The test cases guarantee that the first person in the queue does not exceed the 
 
 ---
 
-## 🗃️ Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Queue (
     person_id   INT,
@@ -64,8 +63,7 @@ ORDER BY turn DESC LIMIT 1;
 
 ---
 
-## 🪜 Approach
-
+## 🧠 Approach
 1. Use `SUM(weight) OVER(ORDER BY turn ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW)` to compute a **running cumulative weight** for each person in boarding order.
 2. Wrap the window function in a subquery to make `cum_weight` available for filtering.
 3. Filter rows where `cum_weight <= 1000` — keeping only people who can board within the weight limit.
@@ -73,12 +71,10 @@ ORDER BY turn DESC LIMIT 1;
 
 ---
 
-## 🧠 Concepts Used
-
+## 📌 Concepts Used
 `Window Functions` `SUM() OVER()` `ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW` `Subquery` `ORDER BY` `LIMIT`
 
 ---
 
-## ✍️ My Takeaway
-
+## 💭 My Takeaway
 This problem is a perfect use case for a running total window function. Instead of self-joining or using correlated subqueries, `SUM() OVER()` elegantly computes cumulative weight in boarding order in a single pass. The key trick is filtering after the window function via a subquery, then picking the last valid row with `ORDER BY turn DESC LIMIT 1`.

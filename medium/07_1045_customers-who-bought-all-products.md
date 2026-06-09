@@ -12,8 +12,7 @@ Return the result table in any order.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Customer (
   customer_id INT,
@@ -55,8 +54,7 @@ CREATE TABLE Product (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT customer_id
 FROM Customer

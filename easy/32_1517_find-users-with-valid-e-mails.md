@@ -16,8 +16,7 @@ Return the result table in any order.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Users (
   user_id INT,
@@ -48,8 +47,7 @@ CREATE TABLE Users (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT *
 FROM Users

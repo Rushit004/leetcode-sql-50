@@ -16,8 +16,7 @@ Return the result table ordered by `employee_id` in **ascending order**.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Employees (
   employee_id INT PRIMARY KEY,
@@ -45,8 +44,7 @@ CREATE TABLE Employees (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT t1.employee_id, t1.name, COUNT(*) AS 'reports_count', ROUND(AVG(t2.age)) AS 'average_age'
 FROM Employees t1

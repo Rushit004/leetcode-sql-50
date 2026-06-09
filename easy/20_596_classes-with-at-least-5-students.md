@@ -13,8 +13,7 @@ Return the result table in any order.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Courses (
   student VARCHAR(255),
@@ -46,8 +45,7 @@ CREATE TABLE Courses (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT class
 FROM Courses

@@ -13,8 +13,7 @@ Return the result in **any order**.
 
 ---
 
-## 🗃️ Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Products (
     product_id  INT,
@@ -80,8 +79,7 @@ GROUP BY product_id;
 
 ---
 
-## 🪜 Approach
-
+## 🧠 Approach
 1. In the first `SELECT`, use a subquery to find the **most recent `change_date` on or before `2019-08-16`** for each product using `MAX(change_date)` grouped by `product_id`.
 2. Match `(product_id, change_date)` as a composite key with `IN` to retrieve the corresponding `new_price` — the product's effective price on that date.
 3. In the second `SELECT`, identify products with **no price change on or before `2019-08-16`** using `NOT IN` on the same date filter.
@@ -90,12 +88,10 @@ GROUP BY product_id;
 
 ---
 
-## 🧠 Concepts Used
-
+## 📌 Concepts Used
 `UNION` `Subquery` `MAX()` `GROUP BY` `Composite Key Filtering` `NOT IN` `Date Comparison`
 
 ---
 
-## ✍️ My Takeaway
-
+## 💭 My Takeaway
 This problem is a great exercise in handling two separate cases — products that *have* a price record before the target date, and those that *don't*. Using a composite `(product_id, change_date)` pair inside `IN` cleanly pinpoints the latest price per product. `UNION` neatly stitches both cases into one final result.

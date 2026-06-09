@@ -55,8 +55,7 @@ WHERE LENGTH(content) > 15;
 
 ---
 
-## 🔍 Approach
-
+## 🧠 Approach
 1. Select `tweet_id` from the `Tweets` table.
 2. Use the `LENGTH()` function to count the number of characters in the `content` column.
 3. Filter rows where the character count is **strictly greater than 15** using `WHERE LENGTH(content) > 15`.
@@ -64,12 +63,10 @@ WHERE LENGTH(content) > 15;
 
 ---
 
-## 🧠 Concepts Used
-
+## 📌 Concepts Used
 `WHERE clause` `LENGTH()` `String Functions` `Filtering` `Comparison Operators`
 
 ---
 
-## ✍️ My Takeaway
-
+## 💭 My Takeaway
 This problem introduces the `LENGTH()` function in SQL, which is commonly used to measure string size. It's a simple but important tool when working with text data. One thing to note — in MySQL, `LENGTH()` returns the number of **bytes**, while `CHAR_LENGTH()` returns the number of **characters**. For standard ASCII text both give the same result, but for multi-byte characters (like emojis or Unicode), `CHAR_LENGTH()` is the safer choice.

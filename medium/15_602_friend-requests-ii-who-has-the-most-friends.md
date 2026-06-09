@@ -15,8 +15,7 @@ The test cases are generated such that only one person has the most friends.
 
 ---
 
-## 🗃️ Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE RequestAccepted (
     requester_id INT NOT NULL,
@@ -49,8 +48,7 @@ CREATE TABLE RequestAccepted (
 
 ---
 
-## ✅ Solution
-
+## 💡 Solution
 ```sql
 SELECT id, COUNT(*) AS num
 FROM (
@@ -75,12 +73,10 @@ LIMIT 1;
 
 ---
 
-## 🏷️ Concepts Used
-
+## 📌 Concepts Used
 `UNION ALL` `Subquery` `GROUP BY` `COUNT` `ORDER BY` `LIMIT`
 
 ---
 
-## 💡 My Takeaway
-
+## 💭 My Takeaway
 The key insight here is treating a friendship as two separate appearances — once as the requester, once as the accepter. Using `UNION ALL` instead of `UNION` is critical because we need to preserve duplicates; dropping them with `UNION` would give wrong counts. Stacking both columns into one and then grouping is a clean pattern I'll reuse whenever a relationship is symmetric.

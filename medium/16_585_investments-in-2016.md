@@ -15,8 +15,7 @@ Round the result to 2 decimal places.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Insurance (
   pid      INT,
@@ -44,8 +43,7 @@ CREATE TABLE Insurance (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT ROUND(SUM(tiv_2016), 2) AS tiv_2016
 FROM Insurance

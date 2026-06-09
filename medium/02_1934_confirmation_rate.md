@@ -86,8 +86,7 @@ GROUP BY s.user_id;
 
 ---
 
-## 🔍 Approach
-
+## 🧠 Approach
 1. Start with the `Signups` table as the base (left) table to ensure every user is included, even those with no confirmation requests.
 2. `LEFT JOIN` with the `Confirmations` table on `user_id` — users with no confirmations will have `NULL` for all `Confirmations` columns.
 3. `GROUP BY s.user_id` to aggregate all confirmation records per user.
@@ -98,12 +97,10 @@ GROUP BY s.user_id;
 
 ---
 
-## 🧠 Concepts Used
-
+## 📌 Concepts Used
 `LEFT JOIN` `GROUP BY` `SUM()` `COUNT()` `ROUND()` `IFNULL()` `Boolean Expression in Aggregation` `NULL Handling` `Aggregate Functions`
 
 ---
 
-## ✍️ My Takeaway
-
+## 💭 My Takeaway
 This problem introduces a very elegant MySQL trick — using a **boolean expression inside `SUM()`** to conditionally count rows matching a condition, instead of using `CASE WHEN`. The combination of `IFNULL` with `LEFT JOIN` is also a key pattern here — since users with no confirmations produce `NULL` from the division, `IFNULL` cleanly handles it. This pattern of `SUM(condition) / COUNT(column)` is a reusable template for computing rates in SQL.

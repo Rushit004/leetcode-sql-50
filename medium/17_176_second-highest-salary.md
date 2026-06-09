@@ -12,8 +12,7 @@ If there is no second highest salary, return `null`.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Employee (
   id     INT,
@@ -37,8 +36,7 @@ CREATE TABLE Employee (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT
     (

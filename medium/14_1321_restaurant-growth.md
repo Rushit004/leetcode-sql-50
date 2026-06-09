@@ -13,8 +13,7 @@ Result should be ordered by `visited_on` in ascending order.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Customer (
   customer_id INT,
@@ -51,8 +50,7 @@ CREATE TABLE Customer (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 WITH daily AS (
     SELECT

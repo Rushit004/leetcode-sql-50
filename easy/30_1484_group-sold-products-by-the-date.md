@@ -13,8 +13,7 @@ Return the result table ordered by `sell_date`.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Activities (
   sell_date DATE,
@@ -44,8 +43,7 @@ CREATE TABLE Activities (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT sell_date,
        COUNT(DISTINCT product) AS 'num_sold',

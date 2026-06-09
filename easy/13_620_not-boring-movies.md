@@ -13,8 +13,7 @@ Return the result table ordered by `rating` in **descending order**.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Cinema (
   id          INT PRIMARY KEY,
@@ -44,8 +43,7 @@ CREATE TABLE Cinema (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT *
 FROM Cinema

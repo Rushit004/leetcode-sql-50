@@ -14,8 +14,7 @@ Return columns: `product_id`, `first_year`, `quantity`, `price`.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Sales (
   sale_id    INT,
@@ -59,8 +58,7 @@ CREATE TABLE Product (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT s.product_id, s.year AS first_year, s.quantity, s.price
 FROM Sales s

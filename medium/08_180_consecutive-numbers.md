@@ -14,8 +14,7 @@ Return the result in **any order**.
 
 ---
 
-## 🗃️ Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Logs (
     id  INT PRIMARY KEY AUTO_INCREMENT,
@@ -62,8 +61,7 @@ WHERE l1.num = l2.num
 
 ---
 
-## 🪜 Approach
-
+## 🧠 Approach
 1. Self-join `Logs` three times — `l1`, `l2`, and `l3` — representing three consecutive rows.
 2. Link them using `id` increments: `l2.id = l1.id + 1` and `l3.id = l1.id + 2`.
 3. Filter rows where all three `num` values are equal using the `WHERE` clause.
@@ -71,12 +69,10 @@ WHERE l1.num = l2.num
 
 ---
 
-## 🧠 Concepts Used
-
+## 📌 Concepts Used
 `Self-Join` `DISTINCT` `Consecutive Row Detection` `Primary Key Arithmetic` `Multi-Table JOIN`
 
 ---
 
-## ✍️ My Takeaway
-
+## 💭 My Takeaway
 This problem taught me a clean trick — using `id + 1` and `id + 2` offsets in self-joins to simulate a sliding window over consecutive rows. The key insight is that if `id` is auto-incremented and gapless, arithmetic on it reliably maps to physical row adjacency. `DISTINCT` is essential here since a run longer than three would otherwise produce duplicate results.

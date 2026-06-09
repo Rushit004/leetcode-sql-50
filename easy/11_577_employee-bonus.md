@@ -73,8 +73,7 @@ WHERE bonus < 1000 OR bonus IS NULL;
 
 ---
 
-## 🔍 Approach
-
+## 🧠 Approach
 1. Start with the `Employee` table as the base (left) table to ensure all employees are included.
 2. `LEFT JOIN` with the `Bonus` table on matching `empId` — employees with no bonus entry will have `NULL` in the `bonus` column.
 3. Apply a `WHERE` filter with two conditions joined by `OR`.
@@ -83,12 +82,10 @@ WHERE bonus < 1000 OR bonus IS NULL;
 
 ---
 
-## 🧠 Concepts Used
-
+## 📌 Concepts Used
 `LEFT JOIN` `NULL Handling` `IS NULL` `WHERE clause` `OR condition` `Multi-table Query` `Table Alias`
 
 ---
 
-## ✍️ My Takeaway
-
+## 💭 My Takeaway
 This problem is a great combination of two important SQL concepts — `LEFT JOIN` and `NULL` handling. The `LEFT JOIN` ensures employees without any bonus record still appear in the result. The `OR bonus IS NULL` part is critical because SQL's three-valued logic means `NULL < 1000` is `NULL`, not `TRUE`, so those rows would silently disappear without that extra condition. Always pair `LEFT JOIN` with explicit `NULL` checks in your `WHERE` clause.

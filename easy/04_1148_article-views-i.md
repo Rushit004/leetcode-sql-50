@@ -62,8 +62,7 @@ ORDER BY id;
 
 ---
 
-## 🔍 Approach
-
+## 🧠 Approach
 1. Select `author_id` from the `Views` table and alias it as `id`.
 2. Apply a `WHERE` filter to only keep rows where `author_id = viewer_id` — meaning the author viewed their own article.
 3. Use `DISTINCT` to eliminate duplicate author entries (same author may have viewed their own articles multiple times).
@@ -71,12 +70,10 @@ ORDER BY id;
 
 ---
 
-## 🧠 Concepts Used
-
+## 📌 Concepts Used
 `WHERE clause` `DISTINCT` `Column Alias` `Self-reference Filter` `ORDER BY` `Filtering`
 
 ---
 
-## ✍️ My Takeaway
-
+## 💭 My Takeaway
 This problem teaches a neat trick — comparing two columns of the same table to detect a self-referencing condition. The `DISTINCT` keyword is essential here because the same author could appear multiple times if they viewed their own articles on different dates. Without it, the result would have duplicates.

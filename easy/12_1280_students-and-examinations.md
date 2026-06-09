@@ -14,8 +14,7 @@ Return the result table ordered by `student_id` and `subject_name`. Every studen
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Students (
   student_id   INT PRIMARY KEY,
@@ -86,8 +85,7 @@ CREATE TABLE Examinations (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT t1.student_id, t1.student_name, t2.subject_name, COUNT(t3.subject_name) AS 'attended_exams'
 FROM Students t1

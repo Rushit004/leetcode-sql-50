@@ -75,8 +75,7 @@ ON t1.id = t2.id;
 
 ---
 
-## 🔍 Approach
-
+## 🧠 Approach
 1. Start with the `Employees` table as the base (left) table to ensure all employees are included.
 2. `LEFT JOIN` with `EmployeeUNI` on the matching `id` column.
 3. If an employee has a corresponding entry in `EmployeeUNI`, their `unique_id` is returned.
@@ -85,12 +84,10 @@ ON t1.id = t2.id;
 
 ---
 
-## 🧠 Concepts Used
-
+## 📌 Concepts Used
 `LEFT JOIN` `JOIN` `NULL` `Multi-table Query` `Table Alias` `Filtering`
 
 ---
 
-## ✍️ My Takeaway
-
+## 💭 My Takeaway
 This problem is a great introduction to `LEFT JOIN`. The key idea is that a `LEFT JOIN` always keeps **all rows from the left table**, even if there's no matching row in the right table — filling unmatched columns with `NULL`. This is perfect for scenarios where some records may not have associated data in another table.

@@ -13,8 +13,7 @@ Return the result table ordered by `user_id` in **ascending order**.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Followers (
   user_id     INT,
@@ -43,8 +42,7 @@ CREATE TABLE Followers (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT user_id, COUNT(DISTINCT follower_id) AS 'followers_count'
 FROM Followers

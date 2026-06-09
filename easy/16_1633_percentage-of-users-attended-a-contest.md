@@ -13,8 +13,7 @@ Return the result table ordered by `percentage` in **descending order**. In case
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Users (
   user_id   INT PRIMARY KEY,
@@ -68,8 +67,7 @@ CREATE TABLE Register (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT t1.contest_id, ROUND((COUNT(t1.user_id) / (SELECT COUNT(*) FROM Users)) * 100, 2) AS 'percentage'
 FROM Register t1

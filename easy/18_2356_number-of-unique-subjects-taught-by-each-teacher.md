@@ -13,8 +13,7 @@ Return the result table in any order.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Teacher (
   teacher_id INT,
@@ -46,8 +45,7 @@ CREATE TABLE Teacher (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT teacher_id, COUNT(DISTINCT subject_id) AS 'cnt'
 FROM Teacher

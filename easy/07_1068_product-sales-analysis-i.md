@@ -74,8 +74,7 @@ ON t1.product_id = t2.product_id;
 
 ---
 
-## 🔍 Approach
-
+## 🧠 Approach
 1. Start with the `Sales` table as the base table since all sale records are needed.
 2. `INNER JOIN` with the `Product` table on the matching `product_id` column.
 3. Fetch `product_name` from the `Product` table and `year`, `price` from the `Sales` table.
@@ -83,12 +82,10 @@ ON t1.product_id = t2.product_id;
 
 ---
 
-## 🧠 Concepts Used
-
+## 📌 Concepts Used
 `INNER JOIN` `JOIN` `Multi-table Query` `Table Alias` `Column Selection`
 
 ---
 
-## ✍️ My Takeaway
-
+## 💭 My Takeaway
 This problem highlights the difference between `INNER JOIN` and `LEFT JOIN`. Here an `INNER JOIN` is appropriate because we only want sales that have a corresponding product — orphan sales with no product entry are irrelevant. Always choose your join type based on whether unmatched rows from either table need to be preserved or discarded.

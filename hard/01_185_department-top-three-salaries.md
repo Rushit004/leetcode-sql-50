@@ -14,8 +14,7 @@ Return the result table in any order.
 
 ---
 
-### Schema
-
+## 🗂️ Schema
 ```sql
 CREATE TABLE Employee (
   id           INT,
@@ -64,8 +63,7 @@ CREATE TABLE Department (
 
 ---
 
-### Solution
-
+## 💡 Solution
 ```sql
 SELECT t.name AS 'Department', t.Employee AS 'Employee', t.salary AS 'Salary'
 FROM (
