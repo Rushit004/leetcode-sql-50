@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=SQL%2050&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=42&desc=LeetCode%20Study%20Plan%20%E2%80%94%20All%2050%20Solved%20%26%20Documented&descAlignY=65&descColor=a78bfa" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=LeetCode%20SQL%2050&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=45&desc=50%20Problems%20%7C%20Solved%20%7C%20Documented%20%7C%20MySQL&descAlignY=68&descColor=a78bfa&descSize=16" />
 
 </div>
 
