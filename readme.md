@@ -286,18 +286,6 @@ JOIN Person p2 ON p1.email = p2.email AND p1.id > p2.id
 
 ---
 
-## 📊 Progress
-
-```
-✅ Easy    ████████████████████████████████  32 / 32
-✅ Medium  █████████████████                 17 / 17
-✅ Hard    █                                  1 /  1
-─────────────────────────────────────────────────────
-   Total  ██████████████████████████████████ 50 / 50
-```
-
----
-
 ## 🤝 Contributing
 
 Found a better approach or a bug in my solution? PRs are welcome.
